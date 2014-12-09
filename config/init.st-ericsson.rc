@@ -30,6 +30,7 @@ on init
     # setup the global environment
     export OMX_STE_ENS_COMPONENTS_DIR /system/lib/ste_omxcomponents/
     export OMX_BELLAGIO_LOADER_REGISTRY /system/etc/omxloaders
+    export LD_LIBRARY_PATH /vendor/lib:/system/lib:/lib:/usr/lib:/system/lib/ste_omxcomponents
     
     #NANO Editor
     export TERMINFO /system/etc/terminfo
